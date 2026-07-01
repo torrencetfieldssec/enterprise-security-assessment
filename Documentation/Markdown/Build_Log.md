@@ -1,13 +1,69 @@
-## Phase 2 – Enterprise Design
+# Build Log
 
-### Day 1
 
-#### Completed
-- Created the Active Directory design document.
-- Defined the Active Directory domain.
-- Designed the Organizational Unit (OU) structure.
-- Planned the administrative tier model.
-- Defined the initial server naming convention.
+# Phase 2
+## Task 2.1 – Active Directory Design
+Status: Complete
 
-#### Next Steps
-- Design the enterprise network architecture.
+### Completed
+- Created Active Directory design document
+- Defined domain structure (northstar.local)
+- Designed OU hierarchy
+- Defined administrative tier model
+- Defined server naming conventions
+
+### Notes
+Initial identity structure defined to support ~500 users across two locations.
+
+---
+
+## Task 2.2 – Enterprise Operational Model
+Status: Complete
+
+### Completed
+- Defined business locations (Dallas HQ, Austin branch)
+- Defined workforce distribution
+- Identified hybrid cloud strategy (Azure + AWS)
+- Defined core business applications
+
+---
+
+## Task 2.3 – Network Architecture Design
+Status: Complete
+
+### Completed
+- Designed enterprise IP addressing scheme (10.0.0.0/16)
+- Defined VLAN segmentation for HQ and branch
+- Designed DMZ architecture
+- Defined VPN remote access model
+- Defined cloud connectivity (Azure + AWS)
+- Defined SIEM placement and log flow
+
+### Notes
+Network designed using hub-and-spoke model with Dallas HQ as the central hub and Austin as the spoke.
+
+## Task 2.4 – Security Architecture Design
+
+**Status:** Complete
+
+### Objectives
+
+- Define the enterprise security strategy
+- Identify core security technologies
+- Document monitoring strategy
+- Establish incident response lifecycle
+
+### Completed
+
+- Created Security_Architecture.md
+- Documented enterprise security objectives
+- Defined core security principles
+- Selected security technologies
+- Defined centralized monitoring strategy using Splunk Enterprise
+- Documented high-level incident response process
+- Added security control integration summary
+
+### Notes
+
+Implementation details for each security technology will be documented in separate deployment guides during future project phases.
+
