@@ -1,4 +1,11 @@
 # Active Directory Design
+# Document Information
+
+| Version | Date | Author | Description |
+|----------|------|--------|-------------|
+| 1.0 | June 30, 2026 | Torrence Fields | Initial Active Directory design |
+
+
 
 ## Purpose
 

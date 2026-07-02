@@ -67,3 +67,37 @@ Network designed using hub-and-spoke model with Dallas HQ as the central hub and
 
 Implementation details for each security technology will be documented in separate deployment guides during future project phases.
 
+## Task 2.5 – Asset Inventory
+
+**Status:** Complete
+
+### Completed
+- Created centralized asset inventory
+- Defined asset status tracking system (Planned / Deployed / Retired)
+- Documented core infrastructure assets:
+  - Domain Controllers
+  - File Server
+  - SIEM (Splunk)
+  - Vulnerability Scanner (OpenVAS)
+  - Endpoint fleet
+  - Network infrastructure
+  - Cloud environments
+
+### Notes
+The Asset inventory will serve as a "living document" as systems are updated and deployed.
+
+## Task 3.1 – VMware installation and Planning
+
+**Status:** In Progress
+
+### Completed
+
+- Selected VMware Workstation Pro as virtualization platform
+- Installed VMware Workstation Pro
+- Defined host hardware specifications
+
+### Next Steps
+
+- Download installation media
+- Design virtual networking
+- Create first virtual machine
