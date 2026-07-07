@@ -1,5 +1,19 @@
 # Build Log
+## Phase 1 – Project Planning
 
+### 2026-06-29
+
+Completed:
+- Defined fictional company profile for NorthStar
+- Created organizational structure
+- Drafted asset inventory
+- Began network architecture
+
+Challenges:
+- Continue Planning
+
+Next Steps:
+- Active Directory Design
 
 # Phase 2
 ## Task 2.1 – Active Directory Design
@@ -119,6 +133,8 @@ The environment will start with a single NAT network to simplify deployment. Add
 
 # Task 3.3-3.4 — Virtualization Environment and Domain Controller Deployment
 ---
+## Date
+07-06-2026
 
 # Objective
 
@@ -155,7 +171,7 @@ Configuration:
 # Task 3.5 — Initial Server Configuration
 
 ## Date
-2026-07-06
+07-06-2026
 
 ## Objective
 
@@ -189,7 +205,7 @@ NS-DC01 will become:
 # Task 3.5 — Initial Domain Controller Configuration
 
 ## Date
-2026-07-06
+07-06-2026
 
 ## Objective
 
@@ -225,3 +241,66 @@ Next steps:
 - Install DNS role
 - Promote NS-DC01 to Domain Controller
 - Create northstar.local domain
+# Task 3.6 — Active Directory Domain Services Installation
+
+## Date
+07-07-2026
+
+## Objective
+
+Install the Active Directory Domain Services role on NS-DC01 in preparation for creating the Northstar Manufacturing Active Directory forest.
+
+## Completed Actions
+
+- Opened the Add Roles and Features Wizard
+- Installed the Active Directory Domain Services (AD DS) server role
+- Installed required management tools
+- Verified successful role installation
+
+## Current Status
+
+NS-DC01 is prepared for promotion to the first Domain Controller.
+
+## Next Steps
+
+- Create a new Active Directory forest
+- Create the `northstar.local` domain
+- Install and configure DNS
+- Configure Directory Services Restore Mode (DSRM)
+- Complete domain controller promotion
+# Task 3.7 — Active Directory Forest Deployment
+
+## Date
+07-07-2026
+
+## Objective
+
+Promote NS-DC01 to the first Domain Controller for the Northstar Manufacturing enterprise environment.
+
+## Completed Actions
+
+- Created a new Active Directory forest
+- Created the northstar.local domain
+- Installed and configured DNS
+- Configured NS-DC01 as a Global Catalog server
+- Verified successful domain controller promotion
+
+## Result
+
+The Northstar Manufacturing Active Directory environment is operational.
+
+### Domain Information
+
+| Item | Value |
+|------|-------|
+| Forest | northstar.local |
+| Domain | northstar.local |
+| NetBIOS Name | NORTHSTAR |
+| Primary Domain Controller | NS-DC01 |
+
+## Next Steps
+
+- Create the Organizational Unit (OU) structure
+- Create security groups
+- Create administrative accounts
+- Join Windows 11 clients to the domain
