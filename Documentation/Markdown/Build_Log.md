@@ -304,3 +304,103 @@ The Northstar Manufacturing Active Directory environment is operational.
 - Create security groups
 - Create administrative accounts
 - Join Windows 11 clients to the domain
+
+# Task 3.8 — Active Directory OU Structure
+
+## Date
+07-07-2026
+
+## Objective
+
+Implement the Organizational Unit design defined in the Active Directory architecture.
+
+## Completed Actions
+
+Created enterprise Organizational Units:
+
+- Executive
+- Information Technology
+  - Administrators
+  - Help Desk
+  - Security
+- Human Resources
+- Finance
+- Engineering
+- Manufacturing
+- Sales
+- Customer Support
+- Servers
+  - Domain Controllers
+  - File Servers
+  - Linux Servers
+  - Application Servers
+- Workstations
+  - Headquarters
+  - Branch Office
+- Service Accounts
+- Groups
+
+## Result
+
+The Northstar Manufacturing Active Directory structure now reflects the planned enterprise organizational model.
+
+## Next Steps
+
+- Create security groups
+- Create administrative accounts
+- Create user accounts
+- Configure Group Policy
+
+# Task 3.9 — Security Groups and Administrative Structure
+
+## Date
+07-07-2026
+
+## Objective
+
+Implement role-based access control and security group organization within Active Directory.
+
+## Completed Actions
+
+Created security groups:
+
+- IT-Administrators
+- IT-HelpDesk
+- IT-Security
+- HR-Users
+- Finance-Users
+- Engineering-Users
+- Manufacturing-Users
+- Sales-Users
+- CustomerSupport-Users
+
+Created administrative tier groups:
+
+- T0-Domain-Admins
+- T1-Server-Admins
+- T2-HelpDesk
+
+## Security Model
+
+Implemented a role-based access control model based on least privilege.
+
+Administrative tiers:
+
+Tier 0:
+- Domain-level administration
+
+Tier 1:
+- Server administration
+
+Tier 2:
+- User support and workstation administration
+
+## Results
+
+Now the Active Directory now contains the foundation for enterprise access control.
+
+## Next Steps
+
+- Create user accounts
+- Assign users to departments
+- Configure administrative roles
