@@ -404,3 +404,74 @@ Now the Active Directory now contains the foundation for enterprise access contr
 - Create user accounts
 - Assign users to departments
 - Configure administrative roles
+
+# Task 3.10 — Enterprise User Accounts
+
+## Date
+07-08-2026
+
+## Objective
+
+Create enterprise administrative and employee user accounts and assign them to the appropriate Organizational Units and security groups.
+
+## Administrative Accounts
+
+- torrence.admin
+- server.admin
+- helpdesk.tech
+
+## Employee Accounts
+
+- peter.hayes (Executive)
+- cole.macgrath (IT Security)
+- peter.parker (Help Desk)
+- alex.morgan (IT Administrators)
+- emily.davis (Human Resources)
+- michael.chen(Finance)
+- ana.bray (Engineering)
+- daniel.wilson (Engineering)
+- john.marston (Manufacturing)
+- arthur.morgan (Manufacturing)
+- chris.joslin (Sales)
+- olivia.moore (Sales)
+- eren.jaeger (Customer Support)
+- zeke.dunbar (Customer Support)
+## Result
+
+Implemented a realistic Active Directory user structure with role-based group memberships aligned to the Northstar Manufacturing organizational model.
+
+## Next Steps
+
+- Deploy the Windows 11 enterprise client
+- Join the client to the northstar.local domain
+- Test user logons
+- Begin Group Policy deployment
+
+# Task 3.11 — Windows 11 Enterprise Client
+
+## Date
+07-08-2026
+
+## Objective
+
+Deploy a Windows 11 Enterprise virtual machine that will serve as the primary enterprise workstation for the Northstar Manufacturing environment.
+
+## Planned Configuration
+
+- Windows 11 Enterprise
+- Domain joined to northstar.local
+- VMware NAT networking
+- Future Group Policy recipient
+- Future Splunk Universal Forwarder installation
+
+## Implementation Completed
+- Successfully installed Windows 11 Enterprise on WIN11-CLIENT01
+- Joined WIN11-CLIENT01 to the northstar.local domain
+- Verified domain login using northstar\torrence.admin
+- Moved WIN11-CLIENT01 into the Workstations → Headquarters OU
+- Created and applied Northstar-Workstation-Local-Admins Group Policy Object
+- Verified Group Policy updates successfully using gpupdate /force
+
+## Status
+
+Completed
