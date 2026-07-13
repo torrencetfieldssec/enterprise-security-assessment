@@ -536,3 +536,32 @@ Enable security event monitoring and prepare the environment for future SIEM int
 ## Status
 
 Completed
+
+## Task 4.1 — Splunk Enterprise Deployment
+
+## Date
+07-13-2026
+
+Installed Splunk Enterprise on NS-DC01.
+
+Purpose:
+- Collect Windows security events
+- Analyze authentication activity
+- Support incident response investigations
+- Provide SIEM capabilities for Northstar
+
+Status:
+Completed
+
+## Task 4.2 — Windows Events Log Collections
+
+## Date
+07-13-2026
+
+## Log Collections
+Application:Application failures and software events
+Security: Authentication, accounts, privilege changes 
+System: Services, drivers, OS events
+
+Status: 
+Completed
