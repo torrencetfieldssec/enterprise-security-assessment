@@ -500,6 +500,36 @@ Advanced Audit Policy Configuration
 - Policy changes
 - System events
 
+## Password Policy 
+- Enforce password history:	24 passwords
+- Maximum password age:	90 days
+- Minimum password age:	1 day
+- Minimum password length:	12 characters
+- Password must meet complexity requirements: Enabled
+- Store passwords using reversible encryption: Disabled
+
+## Account Lockout Policy
+- Account lockout threshold:	5 invalid logon attempts
+- Account lockout duration:	15 minutes
+- Reset account lockout counter:	15 minutes
+
+## Advanced Audit Policy
+- Credential Validation: (Success, Failure)
+- User Account Management: (Success)
+- Security Group Management: (Success)
+- Process Creation: (Success)
+- Logon: (Success, Failure)
+- Logoff: (Success)
+- Audit Policy Change: (Success)
+- Other System Events: (Success, Failure)
+
+## Windows Defender Firewall
+- Firewall State: Enabled
+- Inbound Connections Block (Default)
+- Outbound Connections: Allow (Default)
+- Log Dropped Packets: Enabled
+- Log Successful Connections: Disabled
+
 
 Purpose:
 Enable security event monitoring and prepare the environment for future SIEM integration.
