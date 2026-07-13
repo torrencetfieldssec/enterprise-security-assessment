@@ -18,15 +18,15 @@ Assets may be added or removed as the project continues.
 | Planned | Not yet deployed |
 | Deployed | Currently active in environment |
 | Retired | No longer in use |
-
+| Deffered | Only used to showcase design |
 ---
 
 # Identity Infrastructure
 
 | Asset | Type | OS | Purpose | Status |
 |------|------|----|---------|--------|
-| NS-DC01 | Domain Controller | Windows Server | Primary AD Domain Controller | Planned |
-| NS-DC02 | Domain Controller | Windows Server | Backup Domain Controller | Planned |
+| NS-DC01 | Domain Controller | Windows Server | Primary AD Domain Controller | Deployed |
+| NS-DC02 | Domain Controller | Windows Server | Backup Domain Controller | Defered |
 
 ---
 
@@ -34,7 +34,7 @@ Assets may be added or removed as the project continues.
 
 | Asset | Type | OS | Purpose | Status |
 |------|------|----|---------|--------|
-| NS-FS01 | File Server | Windows Server | Central file storage | Planned |
+| NS-FS01 | File Server | Windows Server | Central file storage | Defered |
 
 ---
 
@@ -51,7 +51,7 @@ Assets may be added or removed as the project continues.
 
 | Asset | Type | OS | Purpose | Status |
 |------|------|----|---------|--------|
-| WIN11-CLIENTS | Endpoint Group | Windows 11 | Employee workstations (~500 users) | Planned |
+| WIN11-CLIENTS | Endpoint Group | Windows 11 | Employee workstations (~500 users) | Deployed |
 
 ---
 
@@ -78,3 +78,4 @@ Assets may be added or removed as the project continues.
 - All assets will be updated to "Deployed" during implementation phase.
 - IP addresses will be assigned during network implementation.
 - Additional assets may be added as the environment expands.
+- Defered assets are intentionally postponed it because of resource constraints.
