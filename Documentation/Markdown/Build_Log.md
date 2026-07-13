@@ -475,3 +475,34 @@ Deploy a Windows 11 Enterprise virtual machine that will serve as the primary en
 ## Status
 
 Completed
+
+# Task 3.12 — Security Hardening and Audit Policy Configuration
+
+## Date
+07-09-2026
+
+## Objective
+
+Implement security hardening features within the NS-DC01 such as an updated Password Policy and Account Lockout Policy
+
+## Implementation Completed
+- Configured Password Policy
+- Configured Account Lockout Policy
+- Applied changes through the Default Domain Policy
+- Verified policy deployment using gpupdate /force
+Advanced Audit Policy Configuration
+
+## Configured auditing for:
+- Authentication events
+- Account changes
+- Security group modifications
+- Process creation
+- Policy changes
+- System events
+
+
+Purpose:
+Enable security event monitoring and prepare the environment for future SIEM integration.
+## Status
+
+Completed
