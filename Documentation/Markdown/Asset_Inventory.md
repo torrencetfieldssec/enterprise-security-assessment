@@ -25,7 +25,7 @@ Assets may be added or removed as the project continues.
 
 | Asset | Type | OS | Purpose | Status |
 |------|------|----|---------|--------|
-| NS-DC01 | Domain Controller | Windows Server | Primary AD Domain Controller | Deployed |
+| NS-DC01 | Domain Controller | Windows Server | Primary AD Domain Controller| Deployed |
 | NS-DC02 | Domain Controller | Windows Server | Backup Domain Controller | Defered |
 
 ---
@@ -42,7 +42,7 @@ Assets may be added or removed as the project continues.
 
 | Asset | Type | OS | Purpose | Status |
 |------|------|----|---------|--------|
-| NS-SPLUNK01 | SIEM | Linux | Security log aggregation | Planned |
+| NS-SPLUNK01 | SIEM | Linux | Security log aggregation, DNS, GPO, Splunk Enterprise  | Planned |
 | NS-VULN01 | Scanner | Linux | Vulnerability scanning (OpenVAS) | Planned |
 
 ---
