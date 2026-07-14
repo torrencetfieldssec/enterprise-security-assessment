@@ -544,6 +544,19 @@ Completed
 
 Installed Splunk Enterprise on NS-DC01.
 
+## Installation
+
+Installed Splunk Enterprise 10.4.1 on NS-DC01.
+
+Configuration:
+
+- Installation Type: Local System
+- Default installation directory
+- Splunk Web enabled
+- Administrative account created
+
+---
+
 Purpose:
 - Collect Windows security events
 - Analyze authentication activity
@@ -559,9 +572,61 @@ Completed
 07-13-2026
 
 ## Log Collections
-Application:Application failures and software events
+Application: Application failures and software events
 Security: Authentication, accounts, privilege changes 
 System: Services, drivers, OS events
 
 Status: 
+Completed
+
+# Task 4.3 — Splunk Universal Forwarder Deployment
+
+## Date
+
+07-13-2026
+
+## Objective
+
+Deploy Splunk Universal Forwarder on WIN11-CLIENT01 to enable centralized security event collection within the Northstar Manufacturing environment.
+
+---
+
+## Installation
+
+Installed Splunk Universal Forwarder on:
+
+- WIN11-CLIENT01
+
+Configuration:
+
+- Service Account: Local System
+- Destination Splunk Server: NS-DC01
+- Receiving Port: TCP 9997
+
+---
+
+## Forwarding Configuration
+
+Configured Universal Forwarder to send Windows Event Logs to Splunk Enterprise.
+
+Configured event sources:
+
+- Application
+- Security
+- System
+
+Destination:
+
+- Splunk Enterprise on NS-DC01
+- Index: main
+
+Confirmed hosts:
+
+- NS-DC01
+- WIN11-CLIENT01
+
+---
+
+## Status
+
 Completed
