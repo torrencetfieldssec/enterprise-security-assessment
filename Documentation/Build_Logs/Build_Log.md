@@ -630,3 +630,108 @@ Confirmed hosts:
 ## Status
 
 Completed
+
+# Task 4.4 — Splunk Detection
+
+## Date
+
+07-15-2026
+
+## Objective
+
+Deploy Splunk-based security monitoring by collecting Windows event logs, forwarding endpoint telemetry, and validating security detections.
+
+---
+
+## Installation
+
+Installed Splunk Universal Forwarder on:
+
+- WIN11-CLIENT01
+
+Configuration:
+
+- Service Account: Local System
+- Destination Splunk Server: NS-DC01
+- Receiving Port: TCP 9997
+
+---
+
+## Forwarding Configuration
+
+Configured Universal Forwarder to collect and forward Windows Event Logs to Splunk Enterprise.
+
+Configured event sources:
+
+- Application
+- Security
+- System
+- Microsoft-Windows-PowerShell/Operational
+
+Destination:
+
+- Splunk Enterprise on NS-DC01
+- Index: main
+
+Validated log ingestion from:
+
+- NS-DC01
+- WIN11-CLIENT01
+
+---
+
+## Detection
+
+Created and tested Splunk detections using Windows Security Event Logs.
+
+Implemented detections:
+
+- Failed Logon Detection (4625)
+- Successful Logon Detection (4624)
+- New Account Creation (4720)
+- Account Enable/Disable Changes (4722/4725)
+- Privileged Group Membership Changes (4728)
+- Process Creation Detection (4688)
+- Audit Policy Modification Detection (4719)
+- Windows Service Creation Detection (7045)
+- PowerShell Script Execution Detection (4104)
+- Account Lockout Detection (4740)
+---
+
+## Validation
+
+Confirmed:
+
+- Windows event collection functioning
+- Universal Forwarder communication established
+- Security events searchable in Splunk
+- Detection queries returning expected results
+
+---
+
+## Status
+
+Completed
+
+---
+
+## Task 4.5 Ubuntu Installation and Greenbone Administrator Configuration
+
+Date:
+07-16-2026
+
+Configured Greenbone administrator account.
+
+Purpose:
+Installed Ubuntu and began to create administrative access for vulnerability management operations using Greenbone.
+
+Components completed:
+- OpenVAS Scanner
+- Greenbone Manager
+- PostgreSQL backend
+- Vulnerability feeds
+- Web interface authentication
+
+# Status
+
+In Progress

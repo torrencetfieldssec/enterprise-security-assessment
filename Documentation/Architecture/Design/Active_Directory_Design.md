@@ -82,4 +82,4 @@ Tier 2
 
 # Possible Future Expansion
 
-Additional Organizational Units, security groups, and domain controllers may be added as the enterprise environment grows.
+Additional Organizational Units, security groups, and domain controllers may be added or removed as the enterprise environment grows.
