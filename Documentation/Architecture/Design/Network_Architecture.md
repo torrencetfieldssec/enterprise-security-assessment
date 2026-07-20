@@ -10,7 +10,7 @@
 
 ## Purpose
 
-This document defines the enterprise network architecture for Northstar Manufacturing. The goal is to design a secure, scalable, and segmented network capable of supporting approximately 500 users across two physical locations while integrating cloud services and security monitoring.
+This document defines the simulated enterprise network architecture for Northstar Manufacturing. The goal is to design a secure, scalable, and segmented network capable of supporting approximately 500 users across two physical locations while integrating cloud services and security monitoring.
 
 ---
 
