@@ -801,3 +801,52 @@ Greenbone required substantially more system resources than available on the sys
 ## Status
 
 Completed
+
+## Task 5.0 Incident Response Reports
+
+Date:
+07-20-2026
+
+Currently completing the Incident Response section of the project.
+
+Purpose:
+Develop an incident response workflow for Northstar Manufacturing by documenting security incidents, investigation procedures, evidence collection, and response actions using existing security monitoring capabilities.
+
+Components completed:
+
+- Incident response documentation structure
+- Simulated security incident scenario development
+- Splunk detection integration
+- Windows security event investigation workflow
+- MITRE ATT&CK technique mapping
+- Evidence documentation using collected screenshots
+- Incident investigation report creation
+
+Security capabilities integrated:
+
+- Active Directory authentication monitoring
+- Failed and successful logon analysis
+- Account creation monitoring
+- Privileged group membership monitoring
+- PowerShell activity investigation
+- Process execution analysis
+- Windows service creation detection
+- Audit policy change monitoring
+
+Lessons Learned:
+
+The incident response process demonstrated the importance of centralized logging, detection engineering, and structured investigation procedures.
+
+Splunk Enterprise provided visibility into Windows security events and allowed suspicious activity to be mapped to MITRE ATT&CK techniques. 
+
+Possible Future improvements include:
+
+- Creating a full attack simulation scenario
+- Developing a formal risk register
+- Adding incident severity classification
+- Implementing automated response actions
+- Integrating additional cloud security logging sources
+
+## Status
+
+Completed

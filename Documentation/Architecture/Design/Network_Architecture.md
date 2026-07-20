@@ -182,3 +182,7 @@ This network architecture provides:
 - Hybrid cloud integration
 - Centralized logging and monitoring
 - Scalable IP addressing scheme for future growth
+
+# Important Note
+The purpose of this document is to highlight how Northstar's networks would be setup in realistic scenario. Some IP addresses may not be accurate to what was actually used in the project.
+

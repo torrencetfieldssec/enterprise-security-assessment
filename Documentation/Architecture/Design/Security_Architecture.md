@@ -69,7 +69,7 @@ Primary log sources include:
 
 # Incident Response
 
-Security incidents will follow this workflow:
+Security incidents will follow the NIST CSF Model:
 
 1. Detection
 2. Analysis

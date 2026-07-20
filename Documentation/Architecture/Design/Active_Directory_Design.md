@@ -77,7 +77,7 @@ Tier 2
 | NS-SIEM01 | SIEM Server |
 | NS-VULN01 | Vulnerability Scanner |
 | NS-LNX01 | Linux Server |
-
+|WIN-11 Client01 | Windows 11 Enterprise Client Workstation 
 
 # Current Servers For Lab Deployment
 | Hostname | Purpose |

@@ -19,7 +19,7 @@ Affected Systems:
 NS-DC01
 WIN11-CLIENT
 
-Security Monitoring:
+Security Monitoring Tool:
 
 Splunk Enterprise SIEM
 

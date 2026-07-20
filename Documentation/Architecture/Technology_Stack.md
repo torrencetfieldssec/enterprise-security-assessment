@@ -98,7 +98,7 @@
 
 ---
 
-## Planned Future Technologies
+## Possible/Planned Future Technologies
 
 * Microsoft Defender for Endpoint
 * Microsoft Entra ID (Azure AD)
