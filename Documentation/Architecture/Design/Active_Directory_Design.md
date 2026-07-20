@@ -78,6 +78,15 @@ Tier 2
 | NS-VULN01 | Vulnerability Scanner |
 | NS-LNX01 | Linux Server |
 
+
+# Current Servers For Lab Deployment
+| Hostname | Purpose |
+|----------|---------|
+| NS-DC01 | Primary Domain Controller |
+|WIN-11 Client01 | Windows 11 Enterprise Client Workstation |
+| NS-VULN01 | Vulnerability Scanner |
+
+
 ---
 
 # Possible Future Expansion

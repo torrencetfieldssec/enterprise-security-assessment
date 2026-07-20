@@ -34,17 +34,19 @@ The security architecture is designed to:
 
 ---
 
-# Security Technologies
+# Proposed Security Technologies
 
 | Technology | Purpose |
 |------------|---------|
-| Active Directory | Identity Management |
+| Active Directory | Identity Management | 
 | Splunk Enterprise | SIEM |
 | OpenVAS | Vulnerability Management |
+|Nessus Essentials | Vulnerability Management|
 | Microsoft Defender | Endpoint Protection |
 | BitLocker | Disk Encryption |
 | Windows Firewall | Host Firewall |
 | Azure MFA | Multi-Factor Authentication |
+
 
 ---
 

@@ -735,3 +735,43 @@ Components completed:
 # Status
 
 In Progress
+
+## Task 4.6 Nessus Vulnerability Scanner Installation
+
+Date:
+07-17-2026
+
+Installed Nessus Essentials on NS-VULN01.
+
+Purpose:
+Deploy a second enterprise vulnerability scanner alongside Greenbone to compare vulnerability assessment capabilities and provide additional validation during security assessments.
+
+Components completed:
+- Downloaded Nessus installation package
+- Transferred installer from host system to NS-VULN01
+- Installed Nessus using the Ubuntu package manager
+- Started and enabled the Nessus service
+- Verified web interface availability
+- Successfully accessed the Nessus dashboard
+
+## Configuration Setup
+
+Hostname:
+NS-VULN01
+
+Operating System:
+Ubuntu Server 24.04 LTS
+
+Management Webpage:
+https://192.168.86.30:8834
+
+Scanner Type:
+Nessus Essentials
+
+## Status
+
+Completed
+
+## Notes
+
+Nessus will be used to perform authenticated and unauthenticated vulnerability assessments against Northstar Manufacturing lab assets.
