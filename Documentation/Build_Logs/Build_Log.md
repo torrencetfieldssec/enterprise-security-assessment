@@ -850,3 +850,29 @@ Possible Future improvements include:
 ## Status
 
 Completed
+
+---
+
+## Task 5.1 Configuration Baseline Documentation
+
+Date:
+07-22-2026
+
+Completed configuration baseline documentation for the enterprise lab environment.
+
+Purpose:
+Document the baseline configuration of the VMware infrastructure and enterprise systems to provide a centralized reference for system deployment, security settings, and operational consistency.
+
+Components completed:
+
+- VMware network configuration
+- NS-DC01 Windows Server configuration
+- WIN-11 Client configuration
+- NS-VULN01 Ubuntu configuration
+- Enterprise configuration documentation
+
+## Status
+
+Completed
+
+---

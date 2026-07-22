@@ -4,7 +4,7 @@
 
 MITRE ATT&CK is a framework that identifies common attacker behaviors and techniques used during cyber attacks. Each detection is mapped to a relevant technique to show the security behavior being monitored.
 
-Example:
+Definitions:
 
 | Technique | Security Impact |
 |---|---|
