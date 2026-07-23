@@ -1,5 +1,12 @@
 
 
+| Version | Date | Author | Description |
+|----------|------|--------|-------------|
+| 1.0 | July 23, 2026 | Torrence Fields | README |
+
+
+
+
 # Northstar Manufacturing Enterprise Security Assessment
 
 ## Overview
